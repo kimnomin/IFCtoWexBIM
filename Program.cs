@@ -14,9 +14,7 @@ namespace IFCtoWexBIM
     {
         static void Main(string[] args)
         {
-            //const string filename = "20200404CV.01.ifc";
-            //const string filename = "20200404UFCSPA-ARQ-PE-R0-correto.ifc";
-            const string filename = "KICT신관_151102.ifc";
+            const string filename = "20200404CV.01.ifc";
 
             using (var model = IfcStore.Open(filename))
             {
